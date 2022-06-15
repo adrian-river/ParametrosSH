@@ -1,10 +1,6 @@
 #!/bin/bash 
 #archivo sh para modificar archivos de texto plano
 
-crear=""
-escribirArchivo=""
-moverArchivo=""
-eliminarArchivo=""
 
 #dar la bienvenida
 echo "Bienvenido que desea hacer?"
@@ -19,11 +15,11 @@ if [ -z "$1" ]; then
 elif [ $1 = "crear" ]; then
 	echo "indique donde desea crear el directorio"
 	read location
-	echo "ingresa un nombre del directorio"
+	echo "ingresa un nombre al directorio"
 	read directory
 	if [ -d "$location" ]; then
 		echo "Creando directorio en /$location"
-		mkdir /home/ninja2010/$location/$directory
+		mkdir ~./$location/$directory
 		echo "directorio creado con exicto"
 		exit
 	else
