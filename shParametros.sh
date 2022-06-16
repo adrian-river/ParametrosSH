@@ -19,7 +19,7 @@ elif [ $1 = "crear" ]; then
 	read directory
 	if [ -d "$location" ]; then
 		echo "Creando directorio en /$location"
-		mkdir ~./$location/$directory
+		mkdir ~/$location/$directory
 		echo "directorio creado con exicto"
 		exit
 	else
