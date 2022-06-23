@@ -5,7 +5,7 @@
 <ol>
   <li>Cambiar la variable de usuario por el usuario de tu pc </li>
   <li>este archivo debe estar en la raiz (/home/usuario)</li>
-  <li>utilizar el comando `./shParametros.sh</li>
+  <li>utilizar el comando <code>./shParametros.sh</code></li>
 </ol>
 
 
